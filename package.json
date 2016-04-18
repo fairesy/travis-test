@@ -1,0 +1,41 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "csslint": "^0.10.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-karma": "^0.12.2",
+    "jshint": "^2.9.1",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-cli": "^0.1.2",
+    "karma-mocha": "^0.2.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.7"
+  },
+  "scripts": {
+    "csslint": "node node_modules/csslint/cli css",
+    "jshint": "node node_modules/jshint/bin/jshint js",
+    "karma": "node ./node_modules/karma-cli/bin/karma start",
+    "test": "node node_modules/grunt-cli/bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fairesy/travis-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fairesy/travis-test/issues"
+  },
+  "homepage": "https://github.com/fairesy/travis-test#readme"
+}
